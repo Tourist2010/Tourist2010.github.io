@@ -25,7 +25,7 @@ let checkIfGameOver=setInterval(() => {
     if (blockLeft<15&&blockLeft>0&&dinoTop>=130) {
         block.style.animation="none";
         block.style.display="none";
-        alert("You Lose.");
+        alert("You Lose Cheenu!");
         block.style.animation="block 1s infinite linear";
         block.style.display="block";
     }
